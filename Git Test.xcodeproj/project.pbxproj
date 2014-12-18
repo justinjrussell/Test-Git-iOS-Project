@@ -14,6 +14,7 @@
 		41314A731A42A0BA003A1681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41314A721A42A0BA003A1681 /* Images.xcassets */; };
 		41314A761A42A0BA003A1681 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41314A741A42A0BA003A1681 /* LaunchScreen.xib */; };
 		41314A821A42A0BA003A1681 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41314A811A42A0BA003A1681 /* Git_TestTests.m */; };
+		41314A8D1A42A53F003A1681 /* JJRTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 41314A8C1A42A53F003A1681 /* JJRTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		41314A7B1A42A0BA003A1681 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41314A801A42A0BA003A1681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41314A811A42A0BA003A1681 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		41314A8B1A42A53F003A1681 /* JJRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJRTest.h; sourceTree = "<group>"; };
+		41314A8C1A42A53F003A1681 /* JJRTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJRTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				41314A6F1A42A0BA003A1681 /* Main.storyboard */,
 				41314A721A42A0BA003A1681 /* Images.xcassets */,
 				41314A741A42A0BA003A1681 /* LaunchScreen.xib */,
+				41314A8B1A42A53F003A1681 /* JJRTest.h */,
+				41314A8C1A42A53F003A1681 /* JJRTest.m */,
 				41314A651A42A0BA003A1681 /* Supporting Files */,
 			);
 			path = "Git Test";
@@ -221,6 +226,7 @@
 			files = (
 				41314A6E1A42A0BA003A1681 /* ViewController.m in Sources */,
 				41314A6B1A42A0BA003A1681 /* AppDelegate.m in Sources */,
+				41314A8D1A42A53F003A1681 /* JJRTest.m in Sources */,
 				41314A681A42A0BA003A1681 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
